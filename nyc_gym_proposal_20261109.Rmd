@@ -1,5 +1,5 @@
 ---
-title: "nyc_gym_proposal_20261109"
+title: "Project Proposal: NYC Gyms, their Surroundings, and Demographics "
 output: html_document
 date: "2026-11-09"
 ---
