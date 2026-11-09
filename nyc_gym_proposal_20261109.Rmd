@@ -1,5 +1,5 @@
 ---
-title: "nyc_gym_proposal_20261109"
+title: "Project Proposal: NYC Gyms, their Surroundings, and Demographics "
 output: html_document
 date: "2026-11-09"
 ---
@@ -8,6 +8,6 @@ date: "2026-11-09"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Group Members  
 
-git commit test
+Hongtong Lin (hl3464)
