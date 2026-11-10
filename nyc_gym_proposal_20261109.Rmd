@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hongtong Lin (hl3464)
 Shiyu Kang (sk5855)
-
+Xieyu Liu (xl3712)
 
 
 
@@ -27,3 +27,4 @@ Shiyu Kang (sk5855)
 ## The planned analyses / visualizations / coding challenges
 
 ## The planned timeline
+
