@@ -11,3 +11,4 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Group Members  
 
 Hongtong Lin (hl3464)
+Xieyu Liu (xl3712)
