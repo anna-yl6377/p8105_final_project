@@ -11,4 +11,20 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Group Members  
 
 Hongtong Lin (hl3464)
+Shiyu Kang (sk5855)
 Xieyu Liu (xl3712)
+
+
+
+## Tentative project title
+
+## Motivation for this project
+
+## Intended final products
+
+## The anticipated data sources
+
+## The planned analyses / visualizations / coding challenges
+
+## The planned timeline
+
