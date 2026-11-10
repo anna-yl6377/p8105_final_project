@@ -7,7 +7,8 @@ Project Proposal: NYC Gyms, their Surroundings, and Demographics
 Hongtong Lin (hl3464)\
 Shiyu Kang (sk5855)\
 Xieyu Liu (xl3712)\
-Luyao Mao (lm4199)
+Luyao Mao (lm4199)\
+Yixuan Li (yl6377)uuuuuuu
 
 ## Tentative project title
 
