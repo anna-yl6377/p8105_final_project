@@ -31,6 +31,7 @@ New York City is home to a lot of different cultures and communities, but there 
 [NYC Open Data](https://www.nyc.gov/opendata)\
 [NYC gov](https://www.nyc.gov/main)\
 [tidycensus R package](https://walker-data.com/tidycensus/)
+[GymEquipMap](https://gymequipmap.com/)
 
 ## The planned analyses / visualizations / coding challenges
 
