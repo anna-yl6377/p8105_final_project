@@ -8,7 +8,7 @@ Hongtong Lin (hl3464)\
 Shiyu Kang (sk5855)\
 Xieyu Liu (xl3712)\
 Luyao Mao (lm4199)\
-Yixuan Li (yl6377)uuuuuuu
+Yixuan Li (yl6377)
 
 ## Tentative project title
 
@@ -30,6 +30,7 @@ diagnostic tool to discuss deeper, systemic issues in NYC.
 [NYC Open Data](https://www.nyc.gov/opendata)\
 [NYC gov](https://www.nyc.gov/main)\
 [tidycensus R package](https://walker-data.com/tidycensus/)
+[GymEquipMap](https://gymequipmap.com/)
 
 ## The planned analyses / visualizations / coding challenges
 
