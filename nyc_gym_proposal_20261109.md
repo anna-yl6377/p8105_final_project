@@ -1,4 +1,4 @@
-Project Proposal: NYC Gyms, their Surroundings, and Demographics
+Project Proposal: Beyond the Gym
 ================
 2026-11-09
 
@@ -12,8 +12,8 @@ Yixuan Li (yl6377)
 
 ## Tentative project title
 
-<span style="background-color: yellow;">NYC Gyms, their Surroundings,
-and Demographics</span>
+<span style="background-color: yellow;">Beyond the Gym: Exploring
+Socioeconomic Inequality and Health Equity in New York City</span>
 
 ## Motivation for this project
 
@@ -22,9 +22,7 @@ but there are hug gaps in socioeconomic status and health care
 resources. Right now, gyms in NYC are transforming fast and no longer
 serve simply as fitness places. We want to use these gyms as a
 diagnostic tool to discuss deeper, systemic issues in NYC. Specifically,
-we aim to explore how gym availability varies with neighborhood income,
-demographic characteristics, and the surrounding environment to better
-understand disparities in access to fitness resources across NYC.
+we aim to explore from three different angles.
 
 ## Intended final products
 
@@ -36,6 +34,12 @@ understand disparities in access to fitness resources across NYC.
 [GymEquipMap](https://gymequipmap.com/)
 
 ## The planned analyses / visualizations / coding challenges
+
+The first analysis will be the best gym for a CUMC student in NYC.We
+would compare commercial gyms with CUIMC Athletic Center and Dodge
+Fitness Center for CUIMC students and faculty, considering membership
+fees, commuting time and cost from campus housing, opening hours, and
+equipment for different needs, such as strength training and cardio.
 
 ## The planned timeline
 
