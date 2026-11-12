@@ -36,9 +36,9 @@ diagnostic tool to discuss deeper, systemic issues in NYC.
 [NYC Open Data](https://www.nyc.gov/opendata)  
 [NYC gov](https://www.nyc.gov/main)  
 [tidycensus R package](https://walker-data.com/tidycensus/)  
-[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre) 
-[Overpass Turbo](https://overpass-turbo.eu/) [NYC
-Planning](https://www.nyc.gov/content/planning/pages/)  
+[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)  
+[Overpass Turbo](https://overpass-turbo.eu/)  
+[NYC Planning](https://www.nyc.gov/content/planning/pages/)  
 [CDC Tract
 Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)  
 [United States Census
