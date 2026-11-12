@@ -21,32 +21,59 @@ New York City is home to a lot of different cultures and communities,
 but there are hug gaps in socioeconomic status and health care
 resources. Right now, gyms in NYC are transforming fast and no longer
 serve simply as fitness places. We want to use these gyms as a
-diagnostic tool to discuss deeper, systemic issues in NYC. Specifically,
-we aim to explore from three different angles.
+diagnostic tool to discuss deeper, systemic issues in NYC.
 
 ## Intended final products
+
+A collaborative website that combines group members’ analyses into one.
 
 ## The anticipated data sources
 
 [NYC Open Data](https://www.nyc.gov/opendata)\
 [NYC gov](https://www.nyc.gov/main)\
-[tidycensus R package](https://walker-data.com/tidycensus/)
-[GymEquipMap](https://gymequipmap.com/)
+[tidycensus R package](https://walker-data.com/tidycensus/)\
+[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)\
+[NYC Planning](https://www.nyc.gov/content/planning/pages/)\
+[CDC Tract
+Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
+[United States Census
+Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)
 
 ## The planned analyses / visualizations / coding challenges
 
-The first analysis will be the best gym for a CUMC student in NYC.We
-would compare commercial gyms with CUIMC Athletic Center and Dodge
-Fitness Center for CUIMC students and faculty, considering membership
-fees, commuting time and cost from campus housing, opening hours, and
-equipment for different needs, such as strength training and cardio.
+\[Descriptive part:\]\
+\
+
+After showing the descriptive statistics and broad analyses from the
+dataset, we will break the dataset dwon into three perspectives.
+
+One analysis will be the best gym for a CUMC student in NYC.We would
+compare commercial gyms with CUIMC Athletic Center and Dodge Fitness
+Center for CUIMC students and faculty, considering membership fees,
+commuting time and cost from campus housing, opening hours, and
+equipment for different needs, such as strength and cardio training.
+
+Another analysis will focus on the **fall prevention gap for older
+adults in NYC**. The core question will ask if the
+neighborhoods/boroughs with the highest fall hospitalization rates among
+65+ adults have the fewest places to do strength and balance training.
+Potential visualizations would be side-by-side maps of the community
+districts/boroughs that display the number of fall-related
+hospitalization on one side and the number of exercise places on the
+other side. We might also show an interactive quadrant plot to see which
+places have fewer exercise facilities but higher fall-related
+hospitalizations rates. If time allows, we will also use the `survey` R
+package to predict older adults’ behavior: Are 65+ respondents who live
+near more gyms/public athletic facilities exercise more after adjusting
+for factors like insurance and income.
 
 ## The planned timeline
 
 - Weekly meetings at **2:30 PM on Tuesdays**. Will meet virtually or
   cancel the meeting if not enough issues need to be addressed.
 - November 13 by 12pm: Proposal submission
-- November 16-20: Project review meeting on Zoom/Teams
+- November 09 - November 17: Exploring and cleaning data
+- November 17 (Tuesday): Start to analyze data
 - November 24 (Tuesday): Start to draft the Review Report
 - December 1 (Tuesday): Review Report first draft review
 - December 8 (Tuesday): Review Report second draft review: submit if no
