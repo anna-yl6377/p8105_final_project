@@ -18,7 +18,7 @@ Socioeconomic Inequality and Health Equity in New York City</span>
 ## Motivation for this project
 
 New York City is home to a lot of different cultures and communities,
-but there are hug gaps in socioeconomic status and health care
+but there are huge gaps in socioeconomic status and health care
 resources. Right now, gyms in NYC are transforming fast and no longer
 serve simply as fitness places. We want to use these gyms as a
 diagnostic tool to discuss deeper, systemic issues in NYC.
