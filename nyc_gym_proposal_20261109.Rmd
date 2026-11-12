@@ -1,7 +1,6 @@
 ---
 title: "Project Proposal: Beyond the Gym"
 output: github_document
-date: "2026-11-09"
 ---
 
 ```{r setup, include=FALSE}
@@ -22,8 +21,16 @@ Yixuan Li (yl6377)
 
 ## Motivation for this project
 
-New York City is home to a lot of different cultures and communities, but there are huge gaps in socioeconomic status and health care resources. Right now, gyms in NYC are transforming fast and no longer serve simply as fitness places. We want to use these gyms as a diagnostic tool to discuss deeper, systemic issues in NYC.
+New York City is home to a diverse range of cultures and communities, yet significant disparities exist in socioeconomic status and access to healthcare. As the fitness industry evolves, gyms are becoming more than just places for physical exercise; they increasingly reflect broader patterns of lifestyle, consumer behavior, and access to health-related resources. By examining the distribution, accessibility, and characteristics of gyms across NYC, we aim to use them as a diagnostic tool to explore deeper systemic issues in NYC.
+### Motivation
 
+New York City is home to a diverse range of cultures and communities, with substantial differences in socioeconomic conditions, demographic characteristics, and health outcomes. While access to healthcare is an important aspect of public health, access to opportunities for physical activity is another dimension worth examining. Fitness facilities, including commercial gyms and public recreational centers, provide important resources for physical activity. However, their distribution, affordability, operating hours, and available amenities may vary across neighborhoods, potentially creating differences in residents' access to fitness resources.
+
+As the fitness industry evolves, gyms have become more than just places for physical exercise. They also reflect differences in lifestyle, consumer choices, and the availability of health-related resources across communities. Understanding the fitness landscape therefore requires looking beyond the number and location of facilities. Community characteristics, such as income, population size, and age distribution, may help explain patterns in facility distribution, while factors such as membership fees, commuting distance, operating hours, and available amenities determine whether these resources are accessible and suitable for different groups.
+
+With this in mind, our project examines the distribution, characteristics, and accessibility of fitness resources across New York City from several perspectives. We first develop a descriptive overview of fitness facilities and their surrounding communities, exploring how facility availability relates to neighborhood demographic and socioeconomic characteristics. Building on this overview, we investigate three specific questions: which fitness options best meet the needs and practical constraints of Columbia students and faculty; whether neighborhoods with greater fall-related health burdens among older adults have sufficient resources for strength and balance training; and how access to commercial gyms and public recreational facilities varies across communities with different levels of diabetes prevalence.
+
+Together, these analyses aim to provide a broader understanding of NYC's fitness resource landscape, examining not only where facilities are located, but also how their availability and characteristics relate to the needs and circumstances of different populations and communities.
 ## Intended final products
 
 A collaborative website that combines group members' analyses into one.
@@ -36,14 +43,22 @@ A collaborative website that combines group members' analyses into one.
 [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)\
 [NYC Planning](https://www.nyc.gov/content/planning/pages/)\
 [CDC Tract Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
-[United States Census Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)
+[United States Census Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)\
+[GymEquipMap](https://gymequipmap.com)
+
+## Related works
+Kaufman, T. K. Neighborhood recreation facilities and facility membership are jointly associated with objectively measured physical activity. _Journal of Urban Health_,**2019**, _96_(4), 570–582.
+
+Powell, L. M. Availability of physical activity-related facilities and neighborhood demographic and socioeconomic characteristics: A national study. _American Journal of Public Health_, **2006**, _96_(9), 1676–1680. 
+
+Cereijo, L. Access to and availability of exercise facilities in Madrid: An equity perspective. _International Journal of Health Geographics_, **2019**, _18_(15). 
 
 ## The planned analyses / visualizations / coding challenges
 
 [Descriptive part:]\
 \
 
-After showing the descriptive statistics and broad analyses from the dataset, we will break the dataset dwon into three perspectives.
+After showing the descriptive statistics and broad analyses from the dataset, we will break the dataset down into three perspectives.
 
 One analysis will be the best gym for a CUMC student in NYC.We would compare commercial gyms with CUIMC Athletic Center and Dodge Fitness Center for CUIMC students and faculty, considering membership fees, commuting time and cost from campus housing, opening hours, and equipment for different needs, such as strength and cardio training.
 
@@ -62,3 +77,4 @@ Another analysis will focus on the **fall prevention gap for older adults in NYC
 - December 9-11: Merge the videos together
 - December 11 (Friday): Submit the web/screen-cast
 - December 12 (Saturday): Peer assessment submission
+
