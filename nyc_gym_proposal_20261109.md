@@ -4,10 +4,10 @@ Project Proposal: Beyond the Gym
 
 ## Group Members
 
-Hongtong Lin (hl3464)\
-Shiyu Kang (sk5855)\
-Xieyu Liu (xl3712)\
-Luyao Mao (lm4199)\
+Hongtong Lin (hl3464)  
+Shiyu Kang (sk5855)  
+Xieyu Liu (xl3712)  
+Luyao Mao (lm4199)  
 Yixuan Li (yl6377)
 
 ## Tentative project title
@@ -25,24 +25,41 @@ diagnostic tool to discuss deeper, systemic issues in NYC.
 
 ## Intended final products
 
-A collaborative website that combines group members’ analyses into one.
+1.  An interactive NYC fitness resource map and descriptive dashboard
+2.  A CUMC student fitness guide
+3.  An NYC older adult fall-prevention resource report
+4.  An NYC diabetes and fitness resource accessibility report
+5.  A reproducible project website
 
 ## The anticipated data sources
 
-[NYC Open Data](https://www.nyc.gov/opendata)\
-[NYC gov](https://www.nyc.gov/main)\
-[tidycensus R package](https://walker-data.com/tidycensus/)\
-[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)\
-[NYC Planning](https://www.nyc.gov/content/planning/pages/)\
+[NYC Open Data](https://www.nyc.gov/opendata)  
+[NYC gov](https://www.nyc.gov/main)  
+[tidycensus R package](https://walker-data.com/tidycensus/)  
+[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre) 
+[Overpass Turbo](https://overpass-turbo.eu/) [NYC
+Planning](https://www.nyc.gov/content/planning/pages/)  
 [CDC Tract
-Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
+Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)  
 [United States Census
 Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)
 
-## The planned analyses / visualizations / coding challenges
+## The planned analyses / visualizations
 
-\[Descriptive part:\]\
-\
+1.  Descriptive spatial analysis: geographic distribution and density of
+    different fitness facilities across NYC.
+
+2.  Ecological analysis: Associations between neighborhood-level fitness
+    resource availability and demographic/socioeconomic characteristics,
+    including population density, age distribution, income, education,
+    and insurance coverage.
+
+3.  Relative resource availability analysis: Number of fitness
+    facilities per 10,000 residents across coverage.
+
+4.  Geospatial accessibility analysis: Geographic proximity and
+    distribution of commercial and public fitness resources across
+    neighborhoods.
 
 After showing the descriptive statistics and broad analyses from the
 dataset, we will break the dataset dwon into three perspectives.
@@ -66,6 +83,16 @@ hospitalizations rates. If time allows, we will also use the `survey` R
 package to predict older adults’ behavior: Are 65+ respondents who live
 near more gyms/public athletic facilities exercise more after adjusting
 for factors like insurance and income.
+
+## Coding challenges
+
+- Data collection and integration from multiple sources
+
+- Data cleaning, facility classification, and duplicate removal
+
+- Geocoding and spatial joins
+
+- Handling missing data and inconsistent geographic units
 
 ## The planned timeline
 
