@@ -17,12 +17,10 @@ Yixuan Li (yl6377)
 
 ## Tentative project title
 
-[Beyond the Gym: Exploring Socioeconomic Inequality and Health Equity in New York City]{style="background-color: yellow;"}
+[Beyond the Gym: Exploring Socioeconomic Inequality and Health Equity in New York City]{style="background-color: yellow;"}  
 
-## Motivation for this project
 
-New York City is home to a diverse range of cultures and communities, yet significant disparities exist in socioeconomic status and access to healthcare. As the fitness industry evolves, gyms are becoming more than just places for physical exercise; they increasingly reflect broader patterns of lifestyle, consumer behavior, and access to health-related resources. By examining the distribution, accessibility, and characteristics of gyms across NYC, we aim to use them as a diagnostic tool to explore deeper systemic issues in NYC.
-### Motivation
+## Motivation
 
 New York City is home to a diverse range of cultures and communities, with substantial differences in socioeconomic conditions, demographic characteristics, and health outcomes. While access to healthcare is an important aspect of public health, access to opportunities for physical activity is another dimension worth examining. Fitness facilities, including commercial gyms and public recreational centers, provide important resources for physical activity. However, their distribution, affordability, operating hours, and available amenities may vary across neighborhoods, potentially creating differences in residents' access to fitness resources.
 
@@ -31,6 +29,7 @@ As the fitness industry evolves, gyms have become more than just places for phys
 With this in mind, our project examines the distribution, characteristics, and accessibility of fitness resources across New York City from several perspectives. We first develop a descriptive overview of fitness facilities and their surrounding communities, exploring how facility availability relates to neighborhood demographic and socioeconomic characteristics. Building on this overview, we investigate three specific questions: which fitness options best meet the needs and practical constraints of Columbia students and faculty; whether neighborhoods with greater fall-related health burdens among older adults have sufficient resources for strength and balance training; and how access to commercial gyms and public recreation centers varies across communities with different levels of diabetes prevalence.
 
 Together, these analyses aim to provide a broader understanding of NYC's fitness resource landscape, examining not only where facilities are located, but also how their availability and characteristics relate to the needs and circumstances of different populations and communities.
+
 ## Intended final products
 
 1. An interactive NYC fitness resource map and descriptive dashboard
@@ -54,21 +53,22 @@ Together, these analyses aim to provide a broader understanding of NYC's fitness
 [GymEquipMap](https://gymequipmap.com)
 
 ## Related works
-Kaufman, T. K. Neighborhood recreation facilities and facility membership are jointly associated with objectively measured physical activity. _Journal of Urban Health_,**2019**, _96_(4), 570–582.
 
-Powell, L. M. Availability of physical activity-related facilities and neighborhood demographic and socioeconomic characteristics: A national study. _American Journal of Public Health_, **2006**, _96_(9), 1676–1680. 
+Kaufman, T. K. Neighborhood recreation facilities and facility membership are jointly associated with objectively measured physical activity. *Journal of Urban Health*,**2019**, *96*(4), 570–582.
 
-Cereijo, L. Access to and availability of exercise facilities in Madrid: An equity perspective. _International Journal of Health Geographics_, **2019**, _18_(15). 
+Powell, L. M. Availability of physical activity-related facilities and neighborhood demographic and socioeconomic characteristics: A national study. *American Journal of Public Health*, **2006**, *96*(9), 1676–1680.
+
+Cereijo, L. Access to and availability of exercise facilities in Madrid: An equity perspective. *International Journal of Health Geographics*, **2019**, *18*(15).
 
 ## The planned analyses / visualizations
 
-1. Descriptive spatial analysis: geographic distribution and density of different fitness facilities across NYC.
+1.  Descriptive spatial analysis: geographic distribution and density of different fitness facilities across NYC.
 
-2. Ecological analysis: Associations between neighborhood-level fitness resource availability and demographic/socioeconomic characteristics, including population density, age distribution, income, education, and insurance coverage.
+2.  Ecological analysis: Associations between neighborhood-level fitness resource availability and demographic/socioeconomic characteristics, including population density, age distribution, income, education, and insurance coverage.
 
-3. Relative resource availability analysis: Number of fitness facilities per 10,000 residents across coverage.
+3.  Relative resource availability analysis: Number of fitness facilities per 10,000 residents across coverage.
 
-4. Geospatial accessibility analysis: Geographic proximity and distribution of commercial and public fitness resources across neighborhoods.
+4.  Geospatial accessibility analysis: Geographic proximity and distribution of commercial and public fitness resources across neighborhoods.
 
 After showing the descriptive statistics and broad analyses from the dataset, we will break the dataset down into three perspectives.
 
@@ -105,4 +105,3 @@ A third analysis will examine **fitness resource accessibility and diabetes burd
 - December 9-11: Merge the videos together
 - December 11 (Friday): Submit the web/screen-cast
 - December 12 (Saturday): Peer assessment submission
-

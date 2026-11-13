@@ -3,10 +3,10 @@ Project Proposal: Beyond the Gym
 
 ## Group Members
 
-Hongtong Lin (hl3464)  
-Shiyu Kang (sk5855)  
-Xieyu Liu (xl3712)  
-Luyao Mao (lm4199)  
+Hongtong Lin (hl3464)\
+Shiyu Kang (sk5855)\
+Xieyu Liu (xl3712)\
+Luyao Mao (lm4199)\
 Yixuan Li (yl6377)
 
 ## Tentative project title
@@ -14,16 +14,7 @@ Yixuan Li (yl6377)
 <span style="background-color: yellow;">Beyond the Gym: Exploring
 Socioeconomic Inequality and Health Equity in New York City</span>
 
-## Motivation for this project
-
-New York City is home to a diverse range of cultures and communities,
-yet significant disparities exist in socioeconomic status and access to
-healthcare. As the fitness industry evolves, gyms are becoming more than
-just places for physical exercise; they increasingly reflect broader
-patterns of lifestyle, consumer behavior, and access to health-related
-resources. By examining the distribution, accessibility, and
-characteristics of gyms across NYC, we aim to use them as a diagnostic
-tool to explore deeper systemic issues in NYC. \### Motivation
+## Motivation
 
 New York City is home to a diverse range of cultures and communities,
 with substantial differences in socioeconomic conditions, demographic
@@ -64,7 +55,8 @@ Together, these analyses aim to provide a broader understanding of NYC’s
 fitness resource landscape, examining not only where facilities are
 located, but also how their availability and characteristics relate to
 the needs and circumstances of different populations and communities.
-\## Intended final products
+
+## Intended final products
 
 1.  An interactive NYC fitness resource map and descriptive dashboard
 2.  A CUMC student fitness guide
@@ -74,20 +66,16 @@ the needs and circumstances of different populations and communities.
 
 ## The anticipated data sources
 
-[NYC Open Data](https://www.nyc.gov/opendata)  
-[NYC gov](https://www.nyc.gov/main)  
-[tidycensus R package](https://walker-data.com/tidycensus/)  
-[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)  
-[Overpass Turbo](https://overpass-turbo.eu/)  
-[NYC Planning](https://www.nyc.gov/content/planning/pages/)  
-[CDC Tract
-Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)  
-[NYC Parks Directory of Recreation
-Centers](https://data.cityofnewyork.us/Housing-Development/Directory-of-Recreation-Centers/ydj7-rk56)  
-[U.S. Census Bureau TIGER/Line
-Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)  
-[United States Census
-Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)  
+[NYC Open Data](https://www.nyc.gov/opendata)\
+[NYC gov](https://www.nyc.gov/main)\
+[tidycensus R package](https://walker-data.com/tidycensus/)\
+[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)\
+[Overpass Turbo](https://overpass-turbo.eu/)\
+[NYC Planning](https://www.nyc.gov/content/planning/pages/)\
+[CDC Tract Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
+[NYC Parks Directory of Recreation Centers](https://data.cityofnewyork.us/Housing-Development/Directory-of-Recreation-Centers/ydj7-rk56)\
+[U.S. Census Bureau TIGER/Line Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)\
+[United States Census Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)\
 [GymEquipMap](https://gymequipmap.com)
 
 ## Related works
