@@ -117,7 +117,7 @@ An equity perspective. *International Journal of Health Geographics*,
 After showing the descriptive statistics and broad analyses from the
 dataset, we will break the dataset down into three perspectives.
 
-One analysis will be the best gym for a CUMC student in NYC.We would
+We will first analyze the best gym for a CUMC student in NYC.We would
 compare commercial gyms with CUIMC Athletic Center and Dodge Fitness
 Center for CUIMC students and faculty, considering membership fees,
 commuting time and cost from campus housing, opening hours, and
