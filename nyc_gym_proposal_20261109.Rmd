@@ -17,11 +17,8 @@ Yixuan Li (yl6377)
 
 ## Tentative project title
 
-[Beyond the Gym: Exploring Socioeconomic Inequality and Health Equity in New York City]{style="background-color: yellow;"}
+[Beyond the Gym: Exploring Socioeconomic Inequality and Health Equity in New York City]{style="background-color: yellow;"}  
 
-## Motivation for this project
-
-New York City is home to a diverse range of cultures and communities, yet significant disparities exist in socioeconomic status and access to healthcare. As the fitness industry evolves, gyms are becoming more than just places for physical exercise; they increasingly reflect broader patterns of lifestyle, consumer behavior, and access to health-related resources. By examining the distribution, accessibility, and characteristics of gyms across NYC, we aim to use them as a diagnostic tool to explore deeper systemic issues in NYC.
 
 ## Motivation
 
@@ -33,7 +30,7 @@ With this in mind, our project examines the distribution, characteristics, and a
 
 Together, these analyses aim to provide a broader understanding of NYC's fitness resource landscape, examining not only where facilities are located, but also how their availability and characteristics relate to the needs and circumstances of different populations and communities.
 
-## Intended final products
+## Intended final products  
 
 1.  An interactive NYC fitness resource map and descriptive dashboard
 2.  A CUMC student fitness guide

@@ -14,17 +14,6 @@ Yixuan Li (yl6377)
 <span style="background-color: yellow;">Beyond the Gym: Exploring
 Socioeconomic Inequality and Health Equity in New York City</span>
 
-## Motivation for this project
-
-New York City is home to a diverse range of cultures and communities,
-yet significant disparities exist in socioeconomic status and access to
-healthcare. As the fitness industry evolves, gyms are becoming more than
-just places for physical exercise; they increasingly reflect broader
-patterns of lifestyle, consumer behavior, and access to health-related
-resources. By examining the distribution, accessibility, and
-characteristics of gyms across NYC, we aim to use them as a diagnostic
-tool to explore deeper systemic issues in NYC.
-
 ## Motivation
 
 New York City is home to a diverse range of cultures and communities,
