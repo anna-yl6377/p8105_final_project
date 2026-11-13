@@ -48,7 +48,7 @@ three specific questions: which fitness options best meet the needs and
 practical constraints of Columbia students and faculty; whether
 neighborhoods with greater fall-related health burdens among older
 adults have sufficient resources for strength and balance training; and
-how access to commercial gyms and public recreational facilities varies
+how access to commercial gyms and public recreation centers varies
 across communities with different levels of diabetes prevalence.
 
 Together, these analyses aim to provide a broader understanding of NYC’s
@@ -61,7 +61,7 @@ the needs and circumstances of different populations and communities.
 1.  An interactive NYC fitness resource map and descriptive dashboard
 2.  A CUMC student fitness guide
 3.  An NYC older adult fall-prevention resource report
-4.  An NYC diabetes and fitness resource accessibility report
+4.  An NYC diabetes burden and fitness resource accessibility report
 5.  A reproducible project website
 
 ## The anticipated data sources
@@ -72,10 +72,10 @@ the needs and circumstances of different populations and communities.
 [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)\
 [Overpass Turbo](https://overpass-turbo.eu/)\
 [NYC Planning](https://www.nyc.gov/content/planning/pages/)\
-[CDC Tract
-Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
-[United States Census
-Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)\
+[CDC Tract Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
+[NYC Parks Directory of Recreation Centers](https://data.cityofnewyork.us/Housing-Development/Directory-of-Recreation-Centers/ydj7-rk56)\
+[U.S. Census Bureau TIGER/Line Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)\
+[United States Census Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)\
 [GymEquipMap](https://gymequipmap.com)
 
 ## Related works
@@ -133,6 +133,17 @@ package to predict older adults’ behavior: Are 65+ respondents who live
 near more gyms/public athletic facilities exercise more after adjusting
 for factors like insurance and income.
 
+A third analysis will examine **fitness resource accessibility and
+diabetes burden in NYC**. Using CDC PLACES census tract estimates, we
+will map adult diabetes prevalence, compare nearby commercial gym counts
+and distance to the nearest gym across communities with different
+diabetes burdens, and assess how public recreation centers expand
+coverage and where gaps remain. Visualizations will include facility
+locations overlaid on diabetes prevalence maps, accessibility comparison
+plots, and interactive maps contrasting commercial-only coverage with
+combined commercial and public facility coverage. Findings will describe
+community-level associations rather than causal effects.
+
 ## Coding challenges
 
 - Data collection and integration from multiple sources
@@ -142,6 +153,11 @@ for factors like insurance and income.
 - Geocoding and spatial joins
 
 - Handling missing data and inconsistent geographic units
+
+- Defining consistent distance thresholds and calculating facility
+  accessibility
+
+- Quantifying additional coverage from public recreation centers
 
 ## The planned timeline
 

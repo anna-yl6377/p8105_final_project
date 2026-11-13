@@ -26,17 +26,17 @@ New York City is home to a diverse range of cultures and communities, with subst
 
 As the fitness industry evolves, gyms have become more than just places for physical exercise. They also reflect differences in lifestyle, consumer choices, and the availability of health-related resources across communities. Understanding the fitness landscape therefore requires looking beyond the number and location of facilities. Community characteristics, such as income, population size, and age distribution, may help explain patterns in facility distribution, while factors such as membership fees, commuting distance, operating hours, and available amenities determine whether these resources are accessible and suitable for different groups.
 
-With this in mind, our project examines the distribution, characteristics, and accessibility of fitness resources across New York City from several perspectives. We first develop a descriptive overview of fitness facilities and their surrounding communities, exploring how facility availability relates to neighborhood demographic and socioeconomic characteristics. Building on this overview, we investigate three specific questions: which fitness options best meet the needs and practical constraints of Columbia students and faculty; whether neighborhoods with greater fall-related health burdens among older adults have sufficient resources for strength and balance training; and how access to commercial gyms and public recreational facilities varies across communities with different levels of diabetes prevalence.
+With this in mind, our project examines the distribution, characteristics, and accessibility of fitness resources across New York City from several perspectives. We first develop a descriptive overview of fitness facilities and their surrounding communities, exploring how facility availability relates to neighborhood demographic and socioeconomic characteristics. Building on this overview, we investigate three specific questions: which fitness options best meet the needs and practical constraints of Columbia students and faculty; whether neighborhoods with greater fall-related health burdens among older adults have sufficient resources for strength and balance training; and how access to commercial gyms and public recreation centers varies across communities with different levels of diabetes prevalence.
 
 Together, these analyses aim to provide a broader understanding of NYC's fitness resource landscape, examining not only where facilities are located, but also how their availability and characteristics relate to the needs and circumstances of different populations and communities.
 
-## Intended final products  
+## Intended final products
 
-1.  An interactive NYC fitness resource map and descriptive dashboard
-2.  A CUMC student fitness guide
-3.  An NYC older adult fall-prevention resource report
-4.  An NYC diabetes and fitness resource accessibility report
-5.  A reproducible project website
+1. An interactive NYC fitness resource map and descriptive dashboard
+2. A CUMC student fitness guide
+3. An NYC older adult fall-prevention resource report
+4. An NYC diabetes burden and fitness resource accessibility report
+5. A reproducible project website
 
 ## The anticipated data sources
 
@@ -47,6 +47,8 @@ Together, these analyses aim to provide a broader understanding of NYC's fitness
 [Overpass Turbo](https://overpass-turbo.eu/)\
 [NYC Planning](https://www.nyc.gov/content/planning/pages/)\
 [CDC Tract Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
+[NYC Parks Directory of Recreation Centers](https://data.cityofnewyork.us/Housing-Development/Directory-of-Recreation-Centers/ydj7-rk56)\
+[U.S. Census Bureau TIGER/Line Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)\
 [United States Census Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)\
 [GymEquipMap](https://gymequipmap.com)
 
@@ -74,6 +76,8 @@ One analysis will be the best gym for a CUMC student in NYC.We would compare com
 
 Another analysis will focus on the **fall prevention gap for older adults in NYC**. The core question will ask if the neighborhoods/boroughs with the highest fall hospitalization rates among 65+ adults have the fewest places to do strength and balance training. Potential visualizations would be side-by-side maps of the community districts/boroughs that display the number of fall-related hospitalization on one side and the number of exercise places on the other side. We might also show an interactive quadrant plot to see which places have fewer exercise facilities but higher fall-related hospitalizations rates. If time allows, we will also use the `survey` R package to predict older adults' behavior: Are 65+ respondents who live near more gyms/public athletic facilities exercise more after adjusting for factors like insurance and income.
 
+A third analysis will examine **fitness resource accessibility and diabetes burden in NYC**. Using CDC PLACES census tract estimates, we will map adult diabetes prevalence, compare nearby commercial gym counts and distance to the nearest gym across communities with different diabetes burdens, and assess how public recreation centers expand coverage and where gaps remain. Visualizations will include facility locations overlaid on diabetes prevalence maps, accessibility comparison plots, and interactive maps contrasting commercial-only coverage with combined commercial and public facility coverage. Findings will describe community-level associations rather than causal effects.
+
 ## Coding challenges
 
 - Data collection and integration from multiple sources
@@ -83,6 +87,10 @@ Another analysis will focus on the **fall prevention gap for older adults in NYC
 - Geocoding and spatial joins
 
 - Handling missing data and inconsistent geographic units
+
+- Defining consistent distance thresholds and calculating facility accessibility
+
+- Quantifying additional coverage from public recreation centers
 
 ## The planned timeline
 
