@@ -1,0 +1,23 @@
+---
+title: "Fall Prevention and Fitness Resources in NYC"
+author: "Hongtong Lin"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(ggplot2)
+```
+  
+## Data exploration  
+
+
+```{r}
+
+
+
+
+```
+
