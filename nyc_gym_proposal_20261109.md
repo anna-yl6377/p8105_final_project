@@ -3,10 +3,10 @@ Project Proposal: Beyond the Gym
 
 ## Group Members
 
-Hongtong Lin (hl3464)\
-Shiyu Kang (sk5855)\
-Xieyu Liu (xl3712)\
-Luyao Mao (lm4199)\
+Hongtong Lin (hl3464)  
+Shiyu Kang (sk5855)  
+Xieyu Liu (xl3712)  
+Luyao Mao (lm4199)  
 Yixuan Li (yl6377)
 
 ## Tentative project title
@@ -66,20 +66,20 @@ the needs and circumstances of different populations and communities.
 
 ## The anticipated data sources
 
-[NYC Open Data](https://www.nyc.gov/opendata)\
-[NYC gov](https://www.nyc.gov/main)\
-[tidycensus R package](https://walker-data.com/tidycensus/)\
-[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)\
-[Overpass Turbo](https://overpass-turbo.eu/)\
-[NYC Planning](https://www.nyc.gov/content/planning/pages/)\
+[NYC Open Data](https://www.nyc.gov/opendata)  
+[NYC gov](https://www.nyc.gov/main)  
+[tidycensus R package](https://walker-data.com/tidycensus/)  
+[OpenStreetMap](https://wiki.openstreetmap.org/wiki/Gym_/_Fitness_centre)  
+[Overpass Turbo](https://overpass-turbo.eu/)  
+[NYC Planning](https://www.nyc.gov/content/planning/pages/)  
 [CDC Tract
-Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)\
+Data](https://data.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2025-/yjkw-uj5s/about_data)  
 [NYC Parks Directory of Recreation
-Centers](https://data.cityofnewyork.us/Housing-Development/Directory-of-Recreation-Centers/ydj7-rk56)\
+Centers](https://data.cityofnewyork.us/Housing-Development/Directory-of-Recreation-Centers/ydj7-rk56)  
 [U.S. Census Bureau TIGER/Line
-Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)\
+Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)  
 [United States Census
-Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)\
+Bureau](https://data.census.gov/table?q=B18105&g=9700000US4822380&y=2024)  
 [GymEquipMap](https://gymequipmap.com)
 
 ## Related works
