@@ -1,0 +1,47 @@
+---
+title: "nyc_gym_main"
+author: "Xieyu Liu"
+date: "2026-11-19"
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+library(jsonlite)
+```
+
+Data cleaning: OSM fitness facilities
+```{r}
+data = fromJSON("data_import/nyc_fitness_facilities_main.json") # Extract the elements from the orginal JSON data
+
+gym_data = data[["elements"]]|>
+  unnest_wider(tags, names_sep = "_")|>
+  unnest_wider(center, names_sep = "_")|> # expand the nested tags and center columns into separate columns
+  select(type,
+         id,
+         lat,
+         lon,
+         center_lat,
+         center_lon,
+         `tags_addr:city`,
+         `tags_addr:postcode`,
+         tags_name,
+         tags_opening_hours,
+         tags_leisure,
+         tags_sport
+         )|> # select relavant variables
+  rename_with(~ str_remove(.x, "^tags_"))|>
+  rename_with(~ str_remove(.x, "^addr:")) # Rename columns to remove the "tags_" and "addr:" prefixes
+```
+
+
+```{r}
+gym_data = gym_data|>
+  mutate(
+    lat = coalesce(lat, center_lat),
+    lon = coalesce(lon, center_lon)
+  ) 
+# Nodes have their own latitude and longitude
+# For ways and relations, use the center coordinates (center_lat and center_lon) to represent their locations
+```
+
