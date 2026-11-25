@@ -1,0 +1,37 @@
+---
+title: "tract_geometry"
+author: "Xieyu Liu"
+date: "2026-11-25"
+output: github_document
+---
+
+```{r}
+library(tidycensus)
+library(tidyverse)
+```
+
+```{r}
+v24 = load_variables(2024, "acs5")
+```
+
+```{r}
+tract_geo = get_acs(
+  geography = "tract",
+  variables = "B01003_001",
+  state = "NY",
+  county = c(
+    "Bronx",
+    "Kings",
+    "New York",
+    "Queens",
+    "Richmond"
+  ),
+  year = 2024,
+  geometry = T
+)
+```
+
+```{r, eval=FALSE}
+saveRDS(tract_geo, "descriptive_gym_analysis/tract_geo.rds")
+```
+
