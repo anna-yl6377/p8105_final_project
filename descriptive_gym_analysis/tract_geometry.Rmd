@@ -5,11 +5,17 @@ date: "2026-11-25"
 output: github_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = "..")
+```
+
 ```{r}
 library(tidycensus)
 library(tidyverse)
+library(sf)
 ```
 
+get tract geometry dataset
 ```{r}
 v24 = load_variables(2024, "acs5")
 ```
@@ -29,7 +35,56 @@ tract_geo = get_acs(
   year = 2024,
   geometry = T
 )
+
+tract_geo = tract_geo|>
+  select(-variable, -estimate, -moe)
 ```
+
+get 2020 Neighborhood Tabulation Areas (NTA) data
+```{r}
+nta = st_read("data_import/2020_Neighborhood_Tabulation_Areas_(NTAs)_20261126.geojson")
+```
+
+
+combine two dataset
+```{r}
+## transform both dataset to the same projected CRS (EPSG:2263)
+nta = st_transform(nta, 2263)
+tract_geo = st_transform(tract_geo, 2263)
+
+## calculate the spatial intersection between census tract and NTA
+tract_nta = st_intersection(
+  tract_geo |> select(GEOID, NAME),
+  nta |> select(nta2020, ntaname, boroname)
+)
+
+## calculate the overlapping area
+tract_nta = tract_nta|>
+  mutate(overlap_area = as.numeric(st_area(geometry)))
+
+## assign each census tract to its primary NTA, select the NTA with the largest overlapping area for each Census Tract
+tract_nta_main = tract_nta|>
+  st_drop_geometry()|>
+  group_by(GEOID)|>
+  slice_max(overlap_area, n = 1, with_ties = F)|>
+  ungroup()|>
+  select(GEOID, nta2020, ntaname, boroname)
+
+## join back to census tract dataset
+tract_geo = tract_geo|>
+  left_join(tract_nta_main, by = "GEOID")
+
+## Identify census tracts without an NTA match
+tract_geo = tract_geo|>
+  mutate(
+    nta_status = if_else(
+      is.na(ntaname),
+      "No NTA match",
+      "Matched"
+    )
+  )
+```
+
 
 ```{r, eval=FALSE}
 saveRDS(tract_geo, "descriptive_gym_analysis/tract_geo.rds")
